@@ -5,7 +5,7 @@
        <template>Hello world! By the way, my name is not <star /></template>
      </category>
      <category>
-       <pattern>How * is your *</pattern>
+       <pattern>How is your * *</pattern>
        <template>Well, my <star/>ing <star index="1"/> is good, thank you.
        </template>
      </category>

@@ -56,8 +56,9 @@ def getInnerXML(node):
     #output = output.replace("\n</"+node.tag+">","**")
     #return output
     output = node.text
-    for item in node:
-        output += ET.tostring(item).decode()
+    for child in node:
+        #print(child.text,child.tail,ET.tostring(child).decode(),child.tag, child.attrib)
+        output += ET.tostring(child).decode()
     return output
 
 class AIML:
