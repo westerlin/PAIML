@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <AIML version="2.0">
+     <category>
+       <pattern>HI *</pattern>
+       <template>Hello world! By the way, my name is not <star /></template>
+     </category>
+     <category>
+       <pattern>How * is your *</pattern>
+       <template>Well, my <star/>ing <star index="1"/> is good, thank you.
+       </template>
+     </category>
+     <category>
+       <pattern>What is a chatbot</pattern>
+       <template>
+         A chatbot is a computer program designed to respond
+         to text or voice inputs in natural language.
+       </template>
+     </category>
+   </AIML>
